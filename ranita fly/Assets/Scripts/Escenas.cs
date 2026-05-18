@@ -20,4 +20,14 @@ public class Escenas : MonoBehaviour
     { 
         SceneManager.LoadScene(2);
     }
+
+    public void Victoria()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    public void Derrota()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
