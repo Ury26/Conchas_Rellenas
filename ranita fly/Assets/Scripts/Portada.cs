@@ -15,8 +15,8 @@ public class Parrallax : MonoBehaviour
         x = Input.mousePosition.x;
         y = Input.mousePosition.y;
 
-        fondoCercano.GetComponent<Transform>().position = new Vector3(x / 2000, y / 2500, 0);
-        fondoMedio.GetComponent<Transform>().position = new Vector3(x / 5000, y / 5000, 0);
-        fondoLejano.GetComponent<Transform>().position = new Vector3(x / 7000, y / 7000, 0);
+        fondoCercano.GetComponent<Transform>().position = new Vector3(x / 300, y / 300, 0);
+        fondoMedio.GetComponent<Transform>().position = new Vector3(x / 2500, y / 2500, 0);
+        fondoLejano.GetComponent<Transform>().position = new Vector3(x / 8000, y / 8000, 0);
     }
 }
