@@ -6,10 +6,10 @@ public class Objetos : MonoBehaviour
     public GameObject mosquito;
     public GameObject tapa;
     public GameObject corcho;
-    public float tiempo = 3f; // cada 2 segundos aparece algo
+    public float tiempo = 3f; 
     public float tiempoVida = 3f;
-    public Transform[] posiciones; // lugares donde aparecen
-    public int probmosquito = 60; // porcentaje
+    public Transform[] posiciones; 
+    public int probmosquito = 60; 
     public int probtapa = 25;
     public int probcorcho = 15;
 
@@ -24,18 +24,18 @@ public class Objetos : MonoBehaviour
         {
             yield return new WaitForSeconds(tiempo);
 
-            // Elegir posición aleatoria
+            
             int i = Random.Range(0, posiciones.Length);
             Vector2 spawnPos = posiciones[i].position;
 
-            // Elegir si aparece mosquito o basura
-            int tipo = Random.Range(0, 4); // 0 mosquito, 1 basura
+            
+            int tipo = Random.Range(0, 4); 
 
             GameObject objetoCreado = null;
 
-            Collider2D col = Physics2D.OverlapCircle(spawnPos, 0.5f); // radio pequeño
+            Collider2D col = Physics2D.OverlapCircle(spawnPos, 0.5f); 
             if (col != null)
-                continue; // si hay algo, saltamos y no instanciamos
+                continue; 
 
             int random = Random.Range(0, 100);
 

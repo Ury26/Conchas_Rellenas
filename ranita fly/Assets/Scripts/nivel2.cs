@@ -12,8 +12,8 @@ public class nivel2 : MonoBehaviour
     private int vidasRestantes;
 
     
-    public int puntosParaAvanzar = 10; // 👈 cantidad de puntos necesaria
-    public string siguienteEscena = "03-Victoria"; // 👈 nombre de la escena a cargar
+    public int puntosParaAvanzar = 10; 
+    public string siguienteEscena = "03-Victoria"; 
 
     void Start()
     {
@@ -45,7 +45,7 @@ public class nivel2 : MonoBehaviour
 
                     Destroy(hit.collider.gameObject, 0.3f);
 
-                    RevisarCambioDeEscena(); // 👈 revisa si ya alcanzó los puntos
+                    RevisarCambioDeEscena(); 
                 }
                 else if (hit.collider.CompareTag("tapa") || hit.collider.CompareTag("corcho"))
                 {

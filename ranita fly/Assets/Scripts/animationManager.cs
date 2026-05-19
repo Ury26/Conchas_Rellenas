@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class animationManager : MonoBehaviour
 {
-    public Animator ranaAnimator; // referencia al Animator de la rana
+    public Animator ranaAnimator; 
 
-    // Animaciones de la rana
+    
     public void Lengua()
     {
         ranaAnimator.SetTrigger("Lengua");
@@ -20,7 +20,6 @@ public class animationManager : MonoBehaviour
         ranaAnimator.SetTrigger("ComerBasura");
     }
 
-    // Animación de impacto para objetos
     public void Impacto(Animator objAnim)
     {
         if (objAnim != null)

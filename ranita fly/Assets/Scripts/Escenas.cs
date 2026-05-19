@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Escenas : MonoBehaviour
 {
 
-    // Update is called once per frame
    public void Inicio()
    {
      SceneManager.LoadScene(0);   

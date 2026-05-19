@@ -11,8 +11,8 @@ public class Prueba : MonoBehaviour
     private int puntos;
     private int vidasRestantes;
 
-    public int puntosParaAvanzar = 10; // 👈 cantidad de puntos necesaria
-    public string siguienteEscena = "02-SegundoNivel"; // 👈 nombre de la escena a cargar
+    public int puntosParaAvanzar = 10; 
+    public string siguienteEscena = "02-SegundoNivel"; 
 
     void Start()
     {
@@ -30,7 +30,7 @@ public class Prueba : MonoBehaviour
 
             if (hit.collider != null)
             {
-                animManager.Lengua(); // lengua siempre al hacer clic
+                animManager.Lengua(); 
 
                 Animator objAnim = hit.collider.GetComponent<Animator>();
 
@@ -44,7 +44,7 @@ public class Prueba : MonoBehaviour
 
                     Destroy(hit.collider.gameObject, 0.3f);
 
-                    RevisarCambioDeEscena(); // 👈 revisa si ya alcanzó los puntos
+                    RevisarCambioDeEscena(); 
                 }
                 else if (hit.collider.CompareTag("tapa") || hit.collider.CompareTag("corcho"))
                 {
