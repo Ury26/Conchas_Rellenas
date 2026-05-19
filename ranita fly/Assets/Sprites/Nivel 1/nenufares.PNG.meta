@@ -139,12 +139,12 @@ TextureImporter:
       name: nenufares_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 464
-        width: 461
-        height: 463
+        x: 31
+        y: 583
+        width: 403
+        height: 231
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: nenufares_1
       rect:
         serializedVersion: 2
-        x: 461
-        y: 464
-        width: 461
-        height: 463
+        x: 496
+        y: 574
+        width: 384
+        height: 225
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: nenufares_2
       rect:
         serializedVersion: 2
-        x: 922
-        y: 464
-        width: 461
-        height: 463
+        x: 966
+        y: 584
+        width: 403
+        height: 222
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,12 +205,12 @@ TextureImporter:
       name: nenufares_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 461
-        height: 463
+        x: 18
+        y: 109
+        width: 416
+        height: 267
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,12 +227,12 @@ TextureImporter:
       name: nenufares_4
       rect:
         serializedVersion: 2
-        x: 461
-        y: 1
-        width: 461
-        height: 463
+        x: 975
+        y: 79
+        width: 394
+        height: 294
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: nenufares_5
       rect:
         serializedVersion: 2
-        x: 922
-        y: 1
-        width: 461
-        height: 463
+        x: 1178
+        y: 370
+        width: 11
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,11 +267,165 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: nenufares_6
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b35538f59c25e70800000000000000
+      internalID: 9102559208931670784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenufares_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 109
+        width: 102
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe1b7bcaaad98e10800000000000000
+      internalID: 2200530320040337140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenufares_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 114
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d9a7ff6db557610800000000000000
+      internalID: 1618300620076916055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenufares_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 115
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbda5d1b3c3fa7b50800000000000000
+      internalID: 6591849026437885371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenufares_10
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 121
+        width: 399
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76633abf0d99b65f0800000000000000
+      internalID: -762346589055142297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenufares_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 109
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fdc86293f82f9c0800000000000000
+      internalID: -3894893252099383442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenufares_12
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 79
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffb8fd9aab5a0890800000000000000
+      internalID: -7491074241824505870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 64bb2f2601ffe9d41bb36de97f884872
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -279,16 +433,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":461.0,"y":463.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
       nenufares_0: 706693678432160318
       nenufares_1: 6458927574561645331
+      nenufares_10: -762346589055142297
+      nenufares_11: -3894893252099383442
+      nenufares_12: -7491074241824505870
       nenufares_2: -2170342247274066003
       nenufares_3: 221288924866182439
       nenufares_4: 7980584801650445368
       nenufares_5: -1418050953282375615
+      nenufares_6: 9102559208931670784
+      nenufares_7: 2200530320040337140
+      nenufares_8: 1618300620076916055
+      nenufares_9: 6591849026437885371
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
