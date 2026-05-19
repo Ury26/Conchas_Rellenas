@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Prueba",
+    "maps": [
+        {
+            "name": "Clic",
+            "id": "82f9df5e-68d2-491d-bae7-70c376d39a0a",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "99e8db41-8fe1-48bd-b3c0-1956928ff11b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "71d61581-802c-44a7-a95a-1bf6b170c220",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -127,12 +127,12 @@ TextureImporter:
       name: flor-hoja7_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 997
-        width: 402
-        height: 256
+        x: 0
+        y: 925
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: flor-hoja7_1
       rect:
         serializedVersion: 2
-        x: 479
-        y: 998
-        width: 424
-        height: 318
+        x: 461
+        y: 925
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,12 +171,12 @@ TextureImporter:
       name: flor-hoja7_2
       rect:
         serializedVersion: 2
-        x: 979
-        y: 1002
-        width: 377
-        height: 311
+        x: 922
+        y: 925
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,11 +194,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 540
-        width: 441
-        height: 332
+        y: 463
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: flor-hoja7_4
       rect:
         serializedVersion: 2
-        x: 465
-        y: 537
-        width: 491
-        height: 273
+        x: 461
+        y: 463
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -237,12 +237,12 @@ TextureImporter:
       name: flor-hoja7_5
       rect:
         serializedVersion: 2
-        x: 974
-        y: 543
-        width: 397
-        height: 329
+        x: 922
+        y: 463
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,12 +259,12 @@ TextureImporter:
       name: flor-hoja7_6
       rect:
         serializedVersion: 2
-        x: 9
-        y: 75
-        width: 439
-        height: 343
+        x: 0
+        y: 1
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: flor-hoja7_7
       rect:
         serializedVersion: 2
-        x: 477
-        y: 73
-        width: 439
-        height: 333
+        x: 461
+        y: 1
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,12 +303,12 @@ TextureImporter:
       name: flor-hoja7_8
       rect:
         serializedVersion: 2
-        x: 941
-        y: 61
-        width: 439
-        height: 343
+        x: 922
+        y: 1
+        width: 461
+        height: 462
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cdcec7000a7ad46458a47d47e5466280
     internalID: 0
     vertices: []
     indices: 
@@ -333,7 +333,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":461.0,"y":462.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       flor-hoja7_0: 6622473703560030573
       flor-hoja7_1: 5661473408270965621
